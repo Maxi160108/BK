@@ -131,3 +131,17 @@ background-color: rgb(226, 217, 197);
     margin-left: 50px;
     padding-left: 20px;
 }
+
+/*Novedades*/
+
+.novedades{
+    display: flex;
+    width: 100%;
+}
+
+.Nove{
+    margin-left: 140px;
+    justify-content: start;
+    color:  brown;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
