@@ -145,3 +145,69 @@ background-color: rgb(226, 217, 197);
     color:  brown;
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
+
+.kingf{
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    justify-content: end;
+    margin: 50px;
+    margin-left: 140px;
+}
+
+.kings{
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    justify-content: end;
+    margin: 50px;
+}
+
+.plant{
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    justify-content: end;
+    margin: 50px;
+}
+
+#kingf{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#kings{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#plant{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    cursor: pointer;  
+}
+
+.content{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(163, 85, 85);
+}
+
+.Fusión{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(128, 29, 29);
+}
+
+.Selection{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(128, 29, 29);
+}
+
+.Based{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(128, 29, 29);
+}
