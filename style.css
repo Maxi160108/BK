@@ -267,3 +267,69 @@ background-color: rgb(226, 217, 197);
     margin: 10px;
 }
 
+/*Pie de pagina*/
+
+.contenido_de_footer {
+    background-color: #f8f7f5;
+    padding-left: 80px;
+    display:wrap;
+    padding-bottom: 40px;
+}
+
+.img_footer {
+    height: 60px;
+    width: 150px;
+    margin-top: 30px;
+}
+
+.informacion_texto {
+    margin-bottom: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.informacion_container {
+    display: flex;
+    display: wrap;
+    margin-top: 30px;
+}
+
+.informacion {
+    width: 200px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    flex: 1;
+}
+
+.apps {
+    padding-right: 5px;
+    flex: 2;
+    text-align: center;
+}
+
+.img-app {
+    height: 50px;
+    width: 140px;
+    cursor: pointer;
+}
+
+.redes {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+#derechos {
+    display: flex;
+    box-shadow: 0px -1px 1px ;
+    padding-top: 20px;
+}
+.derechos {
+    flex: 1;
+    
+}
+
+.diseño {
+ margin-right: 50PX;
+}
