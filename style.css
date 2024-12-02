@@ -247,29 +247,35 @@ margin: 0%;
 }
 
 /*whopper*/
+.whpper{
+    background-color: red;
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+}
 
 .whopper{
     background-color: red;
     display: flex;
-    margin-top: 200px;
+    justify-content: center;
 }
 
 #whopper{
     margin-top: 70px;
-    margin-left: 440px;
-    height: 450px;
-    width: 450px;
+    justify-content: start;
+    height: 550px;
+    width: 550px;
 }
 
 .whopperinfo{
     margin-left: 80px;
-    margin-right: 420px;
+    width: 600px;
 }
 
 .whopperh{
     color: white;
     font-family:cursive;
-    font-size:40px;
+    font-size:50px;
 }
 
 .google{
@@ -286,7 +292,6 @@ margin: 0%;
 
 .wp{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
 
 /*Pie de pagina*/
@@ -376,4 +381,5 @@ footer{background-color: #502314;}
 .imgend{
     height: 40px;
     margin: 5px;
+    cursor: pointer;
 }
