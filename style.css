@@ -1,3 +1,7 @@
+*{
+    flex-wrap: wrap;
+}
+
 body{
 background-color: #F5EBDC;
 margin: 0%;
