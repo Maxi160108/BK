@@ -106,11 +106,16 @@ margin: 0%;
 .locales{
     background-color: rgb(207, 193, 163);
     border-radius: 20px;
-    margin: 140px;
+    margin: 0 auto;
     height: 300px;
     padding-top: 30px;
+    display: flex;
+    width: 1380px;
 }
 
+.local{
+    justify-content: start;
+}
 #locales{
     margin-left: 50px;
     margin-top: 50px;
@@ -133,6 +138,16 @@ margin: 0%;
     margin-left: 50px;
     padding-left: 20px;
     border: rgb(83, 28, 28);
+}
+
+/*Locales: img*/
+
+.image{
+    margin-left: 400px;
+}
+
+.niña{
+    height: 250px;
 }
 
 /*Novedades*/
@@ -262,10 +277,16 @@ margin: 0%;
     height: 60px;
     margin: 10px;
 }
+
 .app{
     width: 200px;
     height: 60px;
     margin: 10px;
+}
+
+.wp{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 /*Pie de pagina*/
@@ -274,7 +295,7 @@ footer{background-color: #502314;}
 
 .contenidos{
     background-color: #502314;
-    padding: 100px;
+    padding: 50px;
     display: flex;
     justify-content: center;
 }
@@ -332,18 +353,23 @@ footer{background-color: #502314;}
 
 /*Pie de pagina: END*/
 
-#derechos {
+#end{
     display: flex;
     box-shadow: 0px -1px 0px white;
-    padding-top: 20px;
-    width: 1350px;
+    padding: 20px;
+    width: 1380px;
     margin: 0 auto;
 }
-.derechos {
+.end{
     flex: 1;
     
 }
 
+/*Pie de pagina: END(P)*/
+
+.end p{
+    color: white;
+}
+
 /*Pie de pagina: END(IMG)*/
 
-.
